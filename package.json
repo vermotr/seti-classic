@@ -1,10 +1,10 @@
 {
-  "name": "seti-ui",
+  "name": "seti-classic",
   "theme": "ui",
   "version": "0.9.2",
   "description": "A dark colored UI theme for Atom with custom file icons.",
   "license": "MIT",
-  "repository": "https://github.com/jesseweed/seti-ui",
+  "repository": "https://github.com/vermotr/seti-classic",
   "engines": {
     "atom": ">0.99.0"
   }
