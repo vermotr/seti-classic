@@ -4,7 +4,10 @@
   "version": "0.10.0",
   "description": "A dark colored UI theme for Atom with custom file icons.",
   "license": "MIT",
-  "repository": "https://github.com/vermotr/seti-classic",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vermotr/seti-classic.git"
+  },
   "engines": {
     "atom": ">0.99.0"
   }

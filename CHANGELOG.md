@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.1
+- Fix broken icons
+
+## 0.10.0
+- Fork to create seti-classic
+
 ## 0.9.2
 - Add cold fusion support
 - Add Haml icon
