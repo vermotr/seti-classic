@@ -2,7 +2,7 @@
 @import "icon-variables";
 @import "ui-mixins";
 
-atom-text-editor[mini], atom-text-editor[mini]::shadow {
+atom-text-editor[mini], atom-text-editor[mini] {
   color: @input-text-color;
   background-color: @input-background-color-selected;
   border: 1px solid @input-border-color;
@@ -14,13 +14,13 @@ atom-text-editor[mini], atom-text-editor[mini]::shadow {
   .selection .region { background-color: darken(@input-background-color, 10%); }
 }
 
-atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused {
   color: @input-text-color-selected;
   background-color: @input-background-color;
   .selection .region { background-color: desaturate(@background-color-info, 50%); }
 }
 
-atom-text-editor, atom-text-editor::shadow {
+atom-text-editor, atom-text-editor {
   .gutter .line-number {
     padding-left: 10px;
   }
@@ -72,7 +72,7 @@ atom-text-editor, atom-text-editor::shadow {
     padding: 3px 0px 0px 6px;
   }
 
-  atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+  atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused {
     padding: 1px;
   }
 }
